@@ -1,4 +1,4 @@
 all:main.c
-	gcc -Wall 203664487_threadpool.c 203664487_proxyServer.c -o ex3 -lpthread
+	gcc -Wall threadpool.c proxyServer.c -o proxy -lpthread
 all-GDB:main.c
-	gcc -g -Wall 203664487_threadpool.c -g 203664487_proxyServer.c -g -o ex3 -lpthread
+	gcc -g -Wall threadpool.c -g proxyServer.c -g -o proxy -lpthread
